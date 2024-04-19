@@ -31,7 +31,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav text-center">
+                    <ul class="navbar-nav text-center bg-white">
                         <li class="nav-item ">
                             <a class="nav-link text-dark" href="#">Home</a>
                         </li>
@@ -56,29 +56,28 @@
 
     <!-- heading part ending -->
 
-    <!-- from to part start -->
+    <!-- from userdata part start -->
     <div class="container mt-5 pt-5">
 
-
         <div class="container d-flex justify-content-around mt-5 pt-5">
-            <div class="row m-auto my-2">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-12">
-                        <p>From</p>
-                        <input type="text" class="form-control" placeholder="from station">
+            <div class="row m-auto my-2 ">
+                <div class="row m-auto">
+                    <div class="col-sm col-md-6 col-lg-6">
+                        <label for="" class="fw-bold">From</label>
+                        <input type="text" class="form-control" placeholder="From station">
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-12">
-                        <p>To</p>
+                    <div class="col-sm col-md-6 col-lg-6 ">
+                        <label for="" class="fw-bold">To</label>
                         <input type="text" class="form-control" placeholder="To station">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-12 ">
-                        <p>Date of Journey</p>
+                <div class="row m-auto">
+                    <div class="col-sm col-md-6 col-lg-6  ">
+                        <label for="" class="fw-bold">Date of Journey</label>
                         <input type="date" class="form-control">
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-12">
-                        <p>Choose a class</p>
+                    <div class="col-sm col-md-6 col-lg-6 ">
+                        <label for="" class="fw-bold">Choose a class</label>
                         <select class="form-select">
                             <option>Please Enter city Name</option>
                             <option>Rajshahi</option>
@@ -88,19 +87,18 @@
                             <option>Bogura</option>
                         </select>
                     </div>
-                </div>
-                <div >
-                    <button class="btn btn-primary w-100" type="button">Search Trains</button>
+                    <div class="py-2">
+                        <button class="btn btn-primary w-100  disabled bg-success" type="button ">Search Trains</button>
+                    </div>
+                    
                 </div>
             </div>
-
-
-            <img src="./img-assets/bd-rail-img.jpg" class="rounded-5 col-sm-6 col-md-6 col-lg-6 col-12" alt="bd-train">
-
+   
+                <img src="./img-assets/bd-rail-img.jpg" class="rounded-5 img-fluid w-100" alt="bd-train">
         </div>
 
     </div>
-    <!-- from to part start -->
+    <!-- from userdata part start -->
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
